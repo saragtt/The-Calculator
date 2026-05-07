@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>The Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="calculator border border-3 rounded-4 p-4 w-25">
+      <div class="mb-3">
+        <input
+          type="text"
+          class="screen"
+          disabled
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"
+        />
+      </div>
+      <div class="keys">
+        <div class="row g-2 mb-2">
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="1"
+            >
+              1
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="2"
+            >
+              2
+            </button>
+          </div>
+          <div class="col">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="3"
+            >
+              3
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="4"
+            >
+              4
+            </button>
+          </div>
+        </div>
+        <div class="row g-2 mb-2">
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="5"
+            >
+              5
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="6"
+            >
+              6
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="7"
+            >
+              7
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="8"
+            >
+              8
+            </button>
+          </div>
+        </div>
+        <div class="row g-2 mb-2">
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="9"
+            >
+              9
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="btn btn-outline-secondary w-100"
+              value="0"
+            >
+              0
+            </button>
+          </div>
+          <div class="col-3">
+            <button type="button" class="clear btn btn-outline-danger w-100">
+              C
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="operator btn btn-outline-danger w-100"
+              value="="
+            >
+              =
+            </button>
+          </div>
+        </div>
+        <div class="row g-2 mb-2">
+          <div class="col-3">
+            <button
+              type="button"
+              class="operator btn btn-outline-danger w-100"
+              value="/"
+            >
+              &#247;
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="operator btn btn-outline-danger w-100"
+              value="*"
+            >
+              &#215;
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="operator btn btn-outline-danger w-100"
+              value="+"
+            >
+              +
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              type="button"
+              class="operator btn btn-outline-danger w-100"
+              value="-"
+            >
+              -
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js.js"></script>
+  </body>
+</html>
